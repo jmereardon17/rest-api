@@ -10,4 +10,4 @@ To further develop the project to recieve an Exceeds Expectations grading, I had
 - Update the User Routes - Filter out the `password`, `createdAt`, and `updatedAt` properties from the response. Update the `POST` route so that if a unique constraint error (`SequelizeUniqueConstraintError`) is thrown, a `400` HTTP status code and an error message is returned
 - Update the Course Routes - Filter out the `createdAt` and `updatedAt` properties from the response. Update the `PUT` and `DELETE` routes to ensure that the currently authenticated user is the owner of the requested course. If the currently authenticated user is not the owner of the requested course, a `403` HTTP status code should be returned.
 
-Grade: TBC
+Grade: Exceeds Expectations
